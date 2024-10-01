@@ -24,4 +24,63 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  /* .wrapper {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+    background: #0d0d0d;
+  }
+  
+  .element {
+    width: 48px;
+    height: 48px;
+    background: #fad658;
+    border-radius: 12px;
+  }
+  
+  .button {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+  } */
+
+  .wrapper {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+    background: #0d0d0d;
+    color: #000;
+  }
+  
+  .element {
+    background: white;
+    border-radius: 16px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden;
+  }
+  
+  .inner {
+    padding: 13px 16px;
+  }
+  
+  .element h1 {
+    font-weight: 600;
+  }
+  
+  .element p {
+    color: #63635d;
+  }
+  
+  .button {
+    background: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
 }
